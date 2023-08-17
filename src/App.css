@@ -1,0 +1,48 @@
+.col-white {
+  background-color: #FFF;
+}
+
+.col-gray {
+  background-color: #F5F4F9;
+}
+
+.col-purple {
+  background-color: #5E3DB3;
+  color: #FFF;
+}
+
+.col-blue {
+  background-color: #090C35;
+  color: #FFF;
+}
+
+.row-1 p {
+  padding-left: 50%;
+  padding-right: 10%;
+}
+
+.row-2 p {
+  padding-left: 10%;
+  padding-right: 50%;
+}
+
+.p-hd {
+  font-size: 90px;
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+}
+
+@media only screen and (min-width: 321px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  [class*="col-"] {
+    padding: 2%;
+  }
+
+}
