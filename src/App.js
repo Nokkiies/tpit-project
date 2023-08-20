@@ -2,7 +2,6 @@ import "./App.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Table from "react-bootstrap/Table";
 
 function App() {
   return (
@@ -15,36 +14,40 @@ function App() {
           <Col>
             <Col className="col-white block1">
               <span className="p-hd">ATHLETS</span>
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no purple">01</div>
-                    </td>
-                    <td>
-                      <div className="p-text">CONNECTION</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no purple">01</div>
+                      </td>
+                      <td>
+                        <div className="p-text">CONNECTION</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-black">
                 Connect with coaches directly, you can ping coaches to view
                 profile.
               </p>
             </Col>
             <Col className="col-gray block2">
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no purple">02</div>
-                    </td>
-                    <td>
-                      <div className="p-text">COLLABORATION</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no purple">02</div>
+                      </td>
+                      <td>
+                        <div className="p-text">COLLABORATION</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-black">
                 Work with other student athletes to increase visability. When
                 you share and like other players videos it will increase your
@@ -53,18 +56,20 @@ function App() {
               </p>
             </Col>
             <Col className="col-purple block3">
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no white">03</div>
-                    </td>
-                    <td>
-                      <div className="p-text">GROWTH</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no white">03</div>
+                      </td>
+                      <td>
+                        <div className="p-text">GROWTH</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-white">
                 Resources and tools for you to get better as a student Athelte.
                 Access to training classes, tutor sessions, etc
@@ -76,54 +81,60 @@ function App() {
           <Col>
             <Col className="col-white block4">
               <span className="p-hd">PLAYERS</span>
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no purple">01</div>
-                    </td>
-                    <td>
-                      <div className="p-text">CONNECTION</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no purple">01</div>
+                      </td>
+                      <td>
+                        <div className="p-text">CONNECTION</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-black">
                 Connect with talented athlete directly, you can watch their
                 skills through video showreels directly from Surface 1.
               </p>
             </Col>
             <Col className="col-gray block5">
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no purple">02</div>
-                    </td>
-                    <td>
-                      <div className="p-text">COLLABORATION</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no purple">02</div>
+                      </td>
+                      <td>
+                        <div className="p-text">COLLABORATION</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-black">
                 Work with recruiter to increase your chances of finding talented
                 athlete.
               </p>
             </Col>
             <Col className="col-blue block6">
-              <p className="p-hd2">
-                <Table>
-                  <tr>
-                    <td className="td-no">
-                      <div className="p-no white text-purple">03</div>
-                    </td>
-                    <td>
-                      <div className="p-text">GROWTH</div>
-                    </td>
-                  </tr>
-                </Table>
-              </p>
+              <div className="p-hd2">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td className="td-no">
+                        <div className="p-no white text-purple">03</div>
+                      </td>
+                      <td>
+                        <div className="p-text">GROWTH</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="p-dt-white">
                 Save your time, recruit proper athlets for your team.
               </p>
@@ -146,38 +157,42 @@ function App() {
               <s id="s2-athlets"></s>
               <s id="s3-athlets"></s>
 
-              <div class="slider">
+              <div className="slider">
                 <div className="col-gray block1">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">01</div>
-                        </td>
-                        <td>
-                          <div className="p-text">CONNECTION</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">01</div>
+                          </td>
+                          <td>
+                            <div className="p-text">CONNECTION</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Connect with coaches directly, you can ping coaches to view
                     profile.
                   </p>
                 </div>
                 <div className="col-gray block2">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">02</div>
-                        </td>
-                        <td>
-                          <div className="p-text">COLLABORATION</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">02</div>
+                          </td>
+                          <td>
+                            <div className="p-text">COLLABORATION</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Work with other student athletes to increase visability.
                     When you share and like other players videos it will
@@ -186,18 +201,20 @@ function App() {
                   </p>
                 </div>
                 <div className="col-gray block3">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">03</div>
-                        </td>
-                        <td>
-                          <div className="p-text">GROWTH</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">03</div>
+                          </td>
+                          <td>
+                            <div className="p-text">GROWTH</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Resources and tools for you to get better as a student
                     Athelte. Access to training classes, tutor sessions, etc
@@ -205,10 +222,10 @@ function App() {
                 </div>
               </div>
 
-              <div class="bullets">
-                <a href="#s1-athlets"></a>
-                <a href="#s2-athlets"></a>
-                <a href="#s3-athlets"></a>
+              <div className="bullets">
+                <a href="#s1-athlets"> </a>
+                <a href="#s2-athlets"> </a>
+                <a href="#s3-athlets"> </a>
               </div>
             </div>
           </Col>
@@ -228,66 +245,72 @@ function App() {
               <s id="s2-players"></s>
               <s id="s3-players"></s>
 
-              <div class="slider">
+              <div className="slider">
                 <div className="col-gray block1">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">01</div>
-                        </td>
-                        <td>
-                          <div className="p-text">CONNECTION</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">01</div>
+                          </td>
+                          <td>
+                            <div className="p-text">CONNECTION</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Connect with talented athlete directly, you can watch their
                     skills through video showreels directly from Surface 1.
                   </p>
                 </div>
                 <div className="col-gray block2">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">02</div>
-                        </td>
-                        <td>
-                          <div className="p-text">COLLABORATION</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">02</div>
+                          </td>
+                          <td>
+                            <div className="p-text">COLLABORATION</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Work with recruiter to increase your chances of finding
                     talented athlete.
                   </p>
                 </div>
                 <div className="col-gray block3">
-                  <p className="p-hd2">
-                    <Table>
-                      <tr>
-                        <td className="td-no">
-                          <div className="p-no purple">03</div>
-                        </td>
-                        <td>
-                          <div className="p-text">GROWTH</div>
-                        </td>
-                      </tr>
-                    </Table>
-                  </p>
+                  <div className="p-hd2">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td className="td-no">
+                            <div className="p-no purple">03</div>
+                          </td>
+                          <td>
+                            <div className="p-text">GROWTH</div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="p-dt-black">
                     Save your time, recruit proper athlets for your team.
                   </p>
                 </div>
               </div>
 
-              <div class="bullets">
-                <a href="#s1-players"></a>
-                <a href="#s2-players"></a>
-                <a href="#s3-players"></a>
+              <div className="bullets">
+                <a href="#s1-players"> </a>
+                <a href="#s2-players"> </a>
+                <a href="#s3-players"> </a>
               </div>
             </div>
           </Col>

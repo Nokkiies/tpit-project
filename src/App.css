@@ -777,13 +777,15 @@ span {
   }
 
   .row-1 p,
-  .row-1 span {
+  .row-1 span,
+  .row-1 div .p-hd2 {
     padding-left: 39%;
     padding-right: 3%;
   }
 
   .row-2 p,
-  .row-2 span {
+  .row-2 span,
+  .row-2 div .p-hd2 {
     padding-left: 5%;
     padding-right: 40%;
   }
@@ -900,13 +902,15 @@ span {
   }
 
   .row-1 p,
-  .row-1 span {
+  .row-1 span,
+  .row-1 div .p-hd2 {
     padding-left: 53%;
     padding-right: 9%;
   }
 
   .row-2 p,
-  .row-2 span {
+  .row-2 span,
+  .row-2 div .p-hd2 {
     padding-left: 17%;
     padding-right: 45%;
   }
